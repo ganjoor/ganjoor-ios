@@ -15,10 +15,7 @@ import PromiseKit
 class RESTAPI: NSObject {
     
     // MARK: Setup
-    static let shared : RESTAPI = {
-        let instance = RESTAPI()
-        return instance
-    }()
+    static let shared = RESTAPI()
     
     let url = "http://localhost:4003/v1"
     

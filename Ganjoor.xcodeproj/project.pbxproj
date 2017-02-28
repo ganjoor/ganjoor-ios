@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA114552F5BE9B562A040DA7 /* Pods_Ganjoor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374B1FA8C0CD6C1A54FF9020 /* Pods_Ganjoor.framework */; };
+		CB82AD9B1E66092D00C06422 /* RestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB82AD9A1E66092D00C06422 /* RestAPI.swift */; };
+		CBA64BDC1E648DE700C06422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA64BDB1E648DE700C06422 /* AppDelegate.swift */; };
+		CBA64BE11E648DE700C06422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA64BDF1E648DE700C06422 /* Main.storyboard */; };
+		CBA64BE31E648DE700C06422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA64BE21E648DE700C06422 /* Assets.xcassets */; };
+		CBA64BE61E648DE700C06422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA64BE41E648DE700C06422 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		374B1FA8C0CD6C1A54FF9020 /* Pods_Ganjoor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ganjoor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A743597C8BE92B6BAC95F56D /* Pods-Ganjoor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ganjoor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ganjoor/Pods-Ganjoor.release.xcconfig"; sourceTree = "<group>"; };
+		CB82AD9A1E66092D00C06422 /* RestAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestAPI.swift; path = Core/API/RestAPI.swift; sourceTree = "<group>"; };
+		CBA64BD81E648DE700C06422 /* Ganjoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ganjoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA64BDB1E648DE700C06422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBA64BE01E648DE700C06422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBA64BE21E648DE700C06422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBA64BE51E648DE700C06422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBA64BE71E648DE700C06422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FF6FAB18E24219533960E5 /* Pods-Ganjoor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ganjoor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ganjoor/Pods-Ganjoor.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBA64BD51E648DE700C06422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA114552F5BE9B562A040DA7 /* Pods_Ganjoor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ECD0FEF8BCDD196A6FEEE45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0FF6FAB18E24219533960E5 /* Pods-Ganjoor.debug.xcconfig */,
+				A743597C8BE92B6BAC95F56D /* Pods-Ganjoor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		505A8AF17EEB7742FA6E6D3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				374B1FA8C0CD6C1A54FF9020 /* Pods_Ganjoor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB82AD971E6608E200C06422 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CB82AD991E6608F400C06422 /* API */,
+				CBA64BDB1E648DE700C06422 /* AppDelegate.swift */,
+				CBA64BE71E648DE700C06422 /* Info.plist */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CB82AD981E6608E700C06422 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CBA64BDF1E648DE700C06422 /* Main.storyboard */,
+				CBA64BE21E648DE700C06422 /* Assets.xcassets */,
+				CBA64BE41E648DE700C06422 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		CB82AD991E6608F400C06422 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CB82AD9A1E66092D00C06422 /* RestAPI.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		CBA64BCF1E648DE700C06422 = {
+			isa = PBXGroup;
+			children = (
+				CBA64BDA1E648DE700C06422 /* Ganjoor */,
+				CBA64BD91E648DE700C06422 /* Products */,
+				4ECD0FEF8BCDD196A6FEEE45 /* Pods */,
+				505A8AF17EEB7742FA6E6D3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBA64BD91E648DE700C06422 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBA64BD81E648DE700C06422 /* Ganjoor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBA64BDA1E648DE700C06422 /* Ganjoor */ = {
+			isa = PBXGroup;
+			children = (
+				CB82AD971E6608E200C06422 /* Core */,
+				CB82AD981E6608E700C06422 /* UI */,
+			);
+			path = Ganjoor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBA64BD71E648DE700C06422 /* Ganjoor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA64BEA1E648DE700C06422 /* Build configuration list for PBXNativeTarget "Ganjoor" */;
+			buildPhases = (
+				BA25E75DE75EBE628CF503C9 /* [CP] Check Pods Manifest.lock */,
+				CBA64BD41E648DE700C06422 /* Sources */,
+				CBA64BD51E648DE700C06422 /* Frameworks */,
+				CBA64BD61E648DE700C06422 /* Resources */,
+				60353CC9F1A097AFD41DA7E6 /* [CP] Embed Pods Frameworks */,
+				9DE7188FD9D7860C5E13338D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ganjoor;
+			productName = Ganjoor;
+			productReference = CBA64BD81E648DE700C06422 /* Ganjoor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBA64BD01E648DE700C06422 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = boon;
+				TargetAttributes = {
+					CBA64BD71E648DE700C06422 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PRZ3PYWDFH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CBA64BD31E648DE700C06422 /* Build configuration list for PBXProject "Ganjoor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBA64BCF1E648DE700C06422;
+			productRefGroup = CBA64BD91E648DE700C06422 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBA64BD71E648DE700C06422 /* Ganjoor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBA64BD61E648DE700C06422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA64BE61E648DE700C06422 /* LaunchScreen.storyboard in Resources */,
+				CBA64BE31E648DE700C06422 /* Assets.xcassets in Resources */,
+				CBA64BE11E648DE700C06422 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60353CC9F1A097AFD41DA7E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ganjoor/Pods-Ganjoor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE7188FD9D7860C5E13338D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ganjoor/Pods-Ganjoor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA25E75DE75EBE628CF503C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBA64BD41E648DE700C06422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB82AD9B1E66092D00C06422 /* RestAPI.swift in Sources */,
+				CBA64BDC1E648DE700C06422 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CBA64BDF1E648DE700C06422 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA64BE01E648DE700C06422 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBA64BE41E648DE700C06422 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA64BE51E648DE700C06422 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBA64BE81E648DE700C06422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBA64BE91E648DE700C06422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBA64BEB1E648DE700C06422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FF6FAB18E24219533960E5 /* Pods-Ganjoor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PRZ3PYWDFH;
+				INFOPLIST_FILE = Ganjoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boon.Ganjoor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CBA64BEC1E648DE700C06422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A743597C8BE92B6BAC95F56D /* Pods-Ganjoor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PRZ3PYWDFH;
+				INFOPLIST_FILE = Ganjoor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boon.Ganjoor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBA64BD31E648DE700C06422 /* Build configuration list for PBXProject "Ganjoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA64BE81E648DE700C06422 /* Debug */,
+				CBA64BE91E648DE700C06422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA64BEA1E648DE700C06422 /* Build configuration list for PBXNativeTarget "Ganjoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA64BEB1E648DE700C06422 /* Debug */,
+				CBA64BEC1E648DE700C06422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBA64BD01E648DE700C06422 /* Project object */;
+}

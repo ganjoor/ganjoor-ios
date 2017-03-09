@@ -13,5 +13,6 @@ target 'Ganjoor' do
   pod 'PromiseKit', '~> 4.0'
   pod 'PromiseKit/Alamofire', '~> 4.0'
   pod 'RealmSwift'
+  pod 'Moya'
 
 end

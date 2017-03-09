@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Moya.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Ganjoor.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -34,6 +39,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Result.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SwiftHEXColors.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,12 +57,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3CBAFF03FAF08B5E160D53C35C31F3FE</key>
+		<key>09973BF51CF4418DBDAF58EE645F5E4F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4D45DD9EF0D14002CF1DA2E71C487C55</key>
+		<key>1215771836B84E9F9899950098D2FF80</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>36D0090133AA9484A76BB96BFC2DD8D2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>40BBD7CD74F8D7CEFED7C3290FA4710B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52ACA0236F086E72B74F0A090A743D41</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,27 +87,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>86FED51CA118EA3820EBF97BF0C867A0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A24624BC2CDB2D86A3EE51B25ECB2ECD</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A2B8349E271777916D364C7588C30A54</key>
+		<key>998351FB362B5B304852B6C88F3FCC91</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>C68748E71A3DDB40B0AAF4BC0A8F9030</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E8DD7B741EC5B979CDAA11C4984F70F9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

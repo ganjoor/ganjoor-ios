@@ -8,23 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		BA114552F5BE9B562A040DA7 /* Pods_Ganjoor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374B1FA8C0CD6C1A54FF9020 /* Pods_Ganjoor.framework */; };
-		CB82AD9B1E66092D00C06422 /* RestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB82AD9A1E66092D00C06422 /* RestAPI.swift */; };
 		CBA64BDC1E648DE700C06422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA64BDB1E648DE700C06422 /* AppDelegate.swift */; };
 		CBA64BE11E648DE700C06422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA64BDF1E648DE700C06422 /* Main.storyboard */; };
 		CBA64BE31E648DE700C06422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA64BE21E648DE700C06422 /* Assets.xcassets */; };
 		CBA64BE61E648DE700C06422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA64BE41E648DE700C06422 /* LaunchScreen.storyboard */; };
+		CBFC8C431E71E67600C06422 /* GanjoorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFC8C421E71E67600C06422 /* GanjoorProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		374B1FA8C0CD6C1A54FF9020 /* Pods_Ganjoor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ganjoor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A743597C8BE92B6BAC95F56D /* Pods-Ganjoor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ganjoor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ganjoor/Pods-Ganjoor.release.xcconfig"; sourceTree = "<group>"; };
-		CB82AD9A1E66092D00C06422 /* RestAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestAPI.swift; path = Core/API/RestAPI.swift; sourceTree = "<group>"; };
 		CBA64BD81E648DE700C06422 /* Ganjoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ganjoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA64BDB1E648DE700C06422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBA64BE01E648DE700C06422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBA64BE21E648DE700C06422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBA64BE51E648DE700C06422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBA64BE71E648DE700C06422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBFC8C421E71E67600C06422 /* GanjoorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GanjoorProvider.swift; path = Core/API/GanjoorProvider.swift; sourceTree = "<group>"; };
 		D0FF6FAB18E24219533960E5 /* Pods-Ganjoor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ganjoor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ganjoor/Pods-Ganjoor.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,7 +80,7 @@
 		CB82AD991E6608F400C06422 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				CB82AD9A1E66092D00C06422 /* RestAPI.swift */,
+				CBFC8C421E71E67600C06422 /* GanjoorProvider.swift */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -236,8 +236,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB82AD9B1E66092D00C06422 /* RestAPI.swift in Sources */,
 				CBA64BDC1E648DE700C06422 /* AppDelegate.swift in Sources */,
+				CBFC8C431E71E67600C06422 /* GanjoorProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ganjoor/UI/Categories/CategoriesVC.swift"
+            timestampString = "515633667.554034"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "init(poeitId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ganjoor.CategoriesVC.init (categoryID : Swift.String) -&gt; Ganjoor.CategoriesVC"
+                  moduleName = "Ganjoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/farzad/Gits/ganjoor-ios/Ganjoor/UI/Categories/CategoriesVC.swift"
+                  timestampString = "514818370.963414"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1652">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ganjoor.CategoriesVC.(init (categoryID : Swift.String) -&gt; Ganjoor.CategoriesVC).(closure #2)"
+                  moduleName = "Ganjoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/farzad/Gits/ganjoor-ios/Ganjoor/UI/Categories/CategoriesVC.swift"
+                  timestampString = "514818370.964678"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "118">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ganjoor/UI/Categories/CategoriesVC.swift"
+            timestampString = "515630424.422389"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "init(poeitId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ganjoor.CategoriesVC.init (categoryID : Swift.String) -&gt; Ganjoor.CategoriesVC"
+                  moduleName = "Ganjoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/farzad/Gits/ganjoor-ios/Ganjoor/UI/Categories/CategoriesVC.swift"
+                  timestampString = "515630424.53921"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "848">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Ganjoor.CategoriesVC.(init (categoryID : Swift.String) -&gt; Ganjoor.CategoriesVC).(closure #1)"
+                  moduleName = "Ganjoor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/farzad/Gits/ganjoor-ios/Ganjoor/UI/Categories/CategoriesVC.swift"
+                  timestampString = "515630424.540647"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

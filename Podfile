@@ -14,5 +14,7 @@ target 'Ganjoor' do
   pod 'PromiseKit/Alamofire', '~> 4.0'
   pod 'RealmSwift'
   pod 'Moya'
-
+  pod 'AsyncDisplayKit'
+  pod 'Moya-SwiftyJSONMapper'
+  
 end

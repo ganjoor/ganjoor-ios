@@ -3,11 +3,37 @@ PODS:
   - AlamofireSwiftyJSON (0.2.0):
     - Alamofire (~> 4.0)
     - SwiftyJSON (~> 3.1)
+  - AsyncDisplayKit (2.2):
+    - AsyncDisplayKit/PINRemoteImage (= 2.2)
+  - AsyncDisplayKit/Core (2.2)
+  - AsyncDisplayKit/PINRemoteImage (2.2):
+    - AsyncDisplayKit/Core
+    - PINRemoteImage/iOS (= 3.0.0-beta.8)
+    - PINRemoteImage/PINCache
   - Moya (8.0.2):
     - Moya/Core (= 8.0.2)
+  - Moya-SwiftyJSONMapper (2.2.0):
+    - Moya-SwiftyJSONMapper/Core (= 2.2.0)
+  - Moya-SwiftyJSONMapper/Core (2.2.0):
+    - Moya (~> 8.0.0)
+    - SwiftyJSON
   - Moya/Core (8.0.2):
     - Alamofire (~> 4.1)
     - Result (~> 3.0)
+  - PINCache (3.0.1-beta.4):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.4)
+    - PINCache/Core (= 3.0.1-beta.4)
+  - PINCache/Arc-exception-safe (3.0.1-beta.4):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.4):
+    - PINOperation (= 1.0.3)
+  - PINOperation (1.0.3)
+  - PINRemoteImage/Core (3.0.0-beta.8)
+  - PINRemoteImage/iOS (3.0.0-beta.8):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.8):
+    - PINCache (= 3.0.1-beta.4)
+    - PINRemoteImage/Core
   - PromiseKit (4.1.7):
     - PromiseKit/Foundation (= 4.1.7)
     - PromiseKit/QuartzCore (= 4.1.7)
@@ -34,7 +60,9 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 4.3)
   - AlamofireSwiftyJSON
+  - AsyncDisplayKit
   - Moya
+  - Moya-SwiftyJSONMapper
   - PromiseKit (~> 4.0)
   - PromiseKit/Alamofire (~> 4.0)
   - RealmSwift
@@ -44,7 +72,12 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
   AlamofireSwiftyJSON: 5a49196b8b061e32f5ebc84fa0815300bd8a974e
+  AsyncDisplayKit: 1585f6cd0531ae9b30476f5912f577b73ebcb0e4
   Moya: 47f61da5b634aa71f676431b64ee0f81e976296d
+  Moya-SwiftyJSONMapper: 03c9d3e562c9025c8c00fa3ec97ae1da61a2be37
+  PINCache: a89c8f609232afac77128557bd12c861844423d7
+  PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
+  PINRemoteImage: c4f9f16932840c597f32e69dd288e10e111a1929
   PromiseKit: 779f2e41faf62d854e7593026ddbcb0bb5c5002d
   Realm: e08d60b0048ccccd3949c8c28a92c4db5712d7e9
   RealmSwift: 30d49739ccb3385d201242736ca4dda56aec9dfc
@@ -52,6 +85,6 @@ SPEC CHECKSUMS:
   SwiftHEXColors: 8f7e364df7929e32cff9f9eeb044bb215167d6be
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 2e17ef02fd4ac5c125b3c6c955f046be4cd38391
+PODFILE CHECKSUM: 04e667a0a1702a70c36b2edf8c34b1952e3e5a40
 
 COCOAPODS: 1.2.0

@@ -8,8 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		BA114552F5BE9B562A040DA7 /* Pods_Ganjoor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374B1FA8C0CD6C1A54FF9020 /* Pods_Ganjoor.framework */; };
+		CB06FA001E798ED200C06422 /* PoemCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB06F9FF1E798ED200C06422 /* PoemCategoryVC.swift */; };
+		CBA548D81EBBEB8000C06422 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA548D71EBBEB8000C06422 /* Models.swift */; };
+		CBA548DC1EBBF6C200C06422 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA548DB1EBBF6C200C06422 /* CategoriesVC.swift */; };
+		CBA548DE1EBBF6CA00C06422 /* PoetsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA548DD1EBBF6CA00C06422 /* PoetsVC.swift */; };
+		CBA548E01EBBF6D900C06422 /* VerseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA548DF1EBBF6D900C06422 /* VerseVC.swift */; };
+		CBA548E61EBBFA1C00C06422 /* Vazir-Bold-FD.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBA548E31EBBFA1C00C06422 /* Vazir-Bold-FD.ttf */; };
+		CBA548E71EBBFA1C00C06422 /* Vazir-FD.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBA548E41EBBFA1C00C06422 /* Vazir-FD.ttf */; };
+		CBA548E81EBBFA1C00C06422 /* Vazir-Light-FD.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBA548E51EBBFA1C00C06422 /* Vazir-Light-FD.ttf */; };
+		CBA548EA1EBBFA5900C06422 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA548E91EBBFA5900C06422 /* FontExtension.swift */; };
 		CBA64BDC1E648DE700C06422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA64BDB1E648DE700C06422 /* AppDelegate.swift */; };
-		CBA64BE11E648DE700C06422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA64BDF1E648DE700C06422 /* Main.storyboard */; };
 		CBA64BE31E648DE700C06422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA64BE21E648DE700C06422 /* Assets.xcassets */; };
 		CBA64BE61E648DE700C06422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA64BE41E648DE700C06422 /* LaunchScreen.storyboard */; };
 		CBFC8C431E71E67600C06422 /* GanjoorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFC8C421E71E67600C06422 /* GanjoorProvider.swift */; };
@@ -18,11 +26,19 @@
 /* Begin PBXFileReference section */
 		374B1FA8C0CD6C1A54FF9020 /* Pods_Ganjoor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ganjoor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A743597C8BE92B6BAC95F56D /* Pods-Ganjoor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ganjoor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ganjoor/Pods-Ganjoor.release.xcconfig"; sourceTree = "<group>"; };
+		CB06F9FF1E798ED200C06422 /* PoemCategoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PoemCategoryVC.swift; path = UI/Poem/PoemCategoryVC.swift; sourceTree = "<group>"; };
+		CBA548D71EBBEB8000C06422 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Models.swift; path = Core/Models.swift; sourceTree = "<group>"; };
+		CBA548DB1EBBF6C200C06422 /* CategoriesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoriesVC.swift; path = UI/Category/CategoriesVC.swift; sourceTree = "<group>"; };
+		CBA548DD1EBBF6CA00C06422 /* PoetsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PoetsVC.swift; path = UI/Poet/PoetsVC.swift; sourceTree = "<group>"; };
+		CBA548DF1EBBF6D900C06422 /* VerseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VerseVC.swift; path = UI/Verse/VerseVC.swift; sourceTree = "<group>"; };
+		CBA548E11EBBF93200C06422 /* fa-IR */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "fa-IR"; path = "fa-IR.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		CBA548E31EBBFA1C00C06422 /* Vazir-Bold-FD.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Vazir-Bold-FD.ttf"; path = "UI/Fonts/Vazir-Bold-FD.ttf"; sourceTree = "<group>"; };
+		CBA548E41EBBFA1C00C06422 /* Vazir-FD.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Vazir-FD.ttf"; path = "UI/Fonts/Vazir-FD.ttf"; sourceTree = "<group>"; };
+		CBA548E51EBBFA1C00C06422 /* Vazir-Light-FD.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Vazir-Light-FD.ttf"; path = "UI/Fonts/Vazir-Light-FD.ttf"; sourceTree = "<group>"; };
+		CBA548E91EBBFA5900C06422 /* FontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FontExtension.swift; path = UI/Fonts/FontExtension.swift; sourceTree = "<group>"; };
 		CBA64BD81E648DE700C06422 /* Ganjoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ganjoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA64BDB1E648DE700C06422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBA64BE01E648DE700C06422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBA64BE21E648DE700C06422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CBA64BE51E648DE700C06422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBA64BE71E648DE700C06422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBFC8C421E71E67600C06422 /* GanjoorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GanjoorProvider.swift; path = Core/API/GanjoorProvider.swift; sourceTree = "<group>"; };
 		D0FF6FAB18E24219533960E5 /* Pods-Ganjoor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ganjoor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ganjoor/Pods-Ganjoor.debug.xcconfig"; sourceTree = "<group>"; };
@@ -57,9 +73,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CB06F9F51E79848600C06422 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CBA548DB1EBBF6C200C06422 /* CategoriesVC.swift */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		CB06F9FE1E798C2600C06422 /* Poem */ = {
+			isa = PBXGroup;
+			children = (
+				CB06F9FF1E798ED200C06422 /* PoemCategoryVC.swift */,
+			);
+			name = Poem;
+			sourceTree = "<group>";
+		};
 		CB82AD971E6608E200C06422 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				CBA548D91EBBEB8500C06422 /* Model */,
 				CB82AD991E6608F400C06422 /* API */,
 				CBA64BDB1E648DE700C06422 /* AppDelegate.swift */,
 				CBA64BE71E648DE700C06422 /* Info.plist */,
@@ -70,7 +103,11 @@
 		CB82AD981E6608E700C06422 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				CBA64BDF1E648DE700C06422 /* Main.storyboard */,
+				CBBB82131E76C09100C06422 /* Poet */,
+				CB06F9F51E79848600C06422 /* Category */,
+				CB06F9FE1E798C2600C06422 /* Poem */,
+				CBA548DA1EBBF68400C06422 /* Verse */,
+				CBA548E21EBBF9E100C06422 /* Fonts */,
 				CBA64BE21E648DE700C06422 /* Assets.xcassets */,
 				CBA64BE41E648DE700C06422 /* LaunchScreen.storyboard */,
 			);
@@ -83,6 +120,33 @@
 				CBFC8C421E71E67600C06422 /* GanjoorProvider.swift */,
 			);
 			name = API;
+			sourceTree = "<group>";
+		};
+		CBA548D91EBBEB8500C06422 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBA548D71EBBEB8000C06422 /* Models.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CBA548DA1EBBF68400C06422 /* Verse */ = {
+			isa = PBXGroup;
+			children = (
+				CBA548DF1EBBF6D900C06422 /* VerseVC.swift */,
+			);
+			name = Verse;
+			sourceTree = "<group>";
+		};
+		CBA548E21EBBF9E100C06422 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CBA548E31EBBFA1C00C06422 /* Vazir-Bold-FD.ttf */,
+				CBA548E41EBBFA1C00C06422 /* Vazir-FD.ttf */,
+				CBA548E51EBBFA1C00C06422 /* Vazir-Light-FD.ttf */,
+				CBA548E91EBBFA5900C06422 /* FontExtension.swift */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		CBA64BCF1E648DE700C06422 = {
@@ -110,6 +174,14 @@
 				CB82AD981E6608E700C06422 /* UI */,
 			);
 			path = Ganjoor;
+			sourceTree = "<group>";
+		};
+		CBBB82131E76C09100C06422 /* Poet */ = {
+			isa = PBXGroup;
+			children = (
+				CBA548DD1EBBF6CA00C06422 /* PoetsVC.swift */,
+			);
+			name = Poet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +219,7 @@
 				TargetAttributes = {
 					CBA64BD71E648DE700C06422 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = PRZ3PYWDFH;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -157,7 +228,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = CBA64BCF1E648DE700C06422;
@@ -177,7 +247,9 @@
 			files = (
 				CBA64BE61E648DE700C06422 /* LaunchScreen.storyboard in Resources */,
 				CBA64BE31E648DE700C06422 /* Assets.xcassets in Resources */,
-				CBA64BE11E648DE700C06422 /* Main.storyboard in Resources */,
+				CBA548E61EBBFA1C00C06422 /* Vazir-Bold-FD.ttf in Resources */,
+				CBA548E71EBBFA1C00C06422 /* Vazir-FD.ttf in Resources */,
+				CBA548E81EBBFA1C00C06422 /* Vazir-Light-FD.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,25 +309,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBA64BDC1E648DE700C06422 /* AppDelegate.swift in Sources */,
+				CB06FA001E798ED200C06422 /* PoemCategoryVC.swift in Sources */,
+				CBA548EA1EBBFA5900C06422 /* FontExtension.swift in Sources */,
 				CBFC8C431E71E67600C06422 /* GanjoorProvider.swift in Sources */,
+				CBA548D81EBBEB8000C06422 /* Models.swift in Sources */,
+				CBA548E01EBBF6D900C06422 /* VerseVC.swift in Sources */,
+				CBA548DE1EBBF6CA00C06422 /* PoetsVC.swift in Sources */,
+				CBA548DC1EBBF6C200C06422 /* CategoriesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CBA64BDF1E648DE700C06422 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CBA64BE01E648DE700C06422 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CBA64BE41E648DE700C06422 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CBA64BE51E648DE700C06422 /* Base */,
+				CBA548E11EBBF93200C06422 /* fa-IR */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -267,6 +337,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -316,6 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -360,11 +432,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = PRZ3PYWDFH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Ganjoor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = boon.Ganjoor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -375,11 +448,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = PRZ3PYWDFH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Ganjoor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = boon.Ganjoor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -14,7 +14,32 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AsyncDisplayKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Moya-SwiftyJSONMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Moya.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PINCache.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PINOperation.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PINRemoteImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -57,7 +82,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>09973BF51CF4418DBDAF58EE645F5E4F</key>
+		<key>052F2F93E0AA36EB4124CC73F46292EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,12 +92,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>36D0090133AA9484A76BB96BFC2DD8D2</key>
+		<key>19003831A04F98E84E43DA67969B2166</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>40BBD7CD74F8D7CEFED7C3290FA4710B</key>
+		<key>5232B3CB536810CA15CB2CC7453FD7AF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -87,7 +112,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>86FED51CA118EA3820EBF97BF0C867A0</key>
+		<key>637145A827CD262E241D6523596E46F3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6F01F450FB3415A0E34E12EAF85BAB9D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>75484E9FC8379B0447FF84F736CC0E85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7886B47BDE01B8E73DD1C85BF75AED04</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -97,12 +137,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>998351FB362B5B304852B6C88F3FCC91</key>
+		<key>9CB689C0D31A8815F1A1DC3A8CB530F4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>C68748E71A3DDB40B0AAF4BC0A8F9030</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D863DF209AFF2C56879854880B5ABD64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E0A59FEBE757722BE4BBBFADC6E5DD94</key>
 		<dict>
 			<key>primary</key>
 			<true/>

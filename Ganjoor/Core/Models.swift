@@ -64,10 +64,10 @@ struct Verse: ALSwiftyJSONAble {
     let text: String
     
     var alignment: NSTextAlignment {
-        if position == 0 {
-            return .right
-        }else{
+        if position == 1 {
             return .left
+        }else{
+            return .right
         }
     }
     

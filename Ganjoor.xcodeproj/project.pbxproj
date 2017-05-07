@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BA114552F5BE9B562A040DA7 /* Pods_Ganjoor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374B1FA8C0CD6C1A54FF9020 /* Pods_Ganjoor.framework */; };
 		CB06FA001E798ED200C06422 /* PoemCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB06F9FF1E798ED200C06422 /* PoemCategoryVC.swift */; };
+		CB2A8CE11EBF6A6D00C06422 /* SelfSizedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2A8CE01EBF6A6D00C06422 /* SelfSizedCell.swift */; };
 		CBA548D81EBBEB8000C06422 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA548D71EBBEB8000C06422 /* Models.swift */; };
 		CBA548DC1EBBF6C200C06422 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA548DB1EBBF6C200C06422 /* CategoriesVC.swift */; };
 		CBA548DE1EBBF6CA00C06422 /* PoetsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA548DD1EBBF6CA00C06422 /* PoetsVC.swift */; };
@@ -27,6 +28,7 @@
 		374B1FA8C0CD6C1A54FF9020 /* Pods_Ganjoor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ganjoor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A743597C8BE92B6BAC95F56D /* Pods-Ganjoor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ganjoor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ganjoor/Pods-Ganjoor.release.xcconfig"; sourceTree = "<group>"; };
 		CB06F9FF1E798ED200C06422 /* PoemCategoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PoemCategoryVC.swift; path = UI/Poem/PoemCategoryVC.swift; sourceTree = "<group>"; };
+		CB2A8CE01EBF6A6D00C06422 /* SelfSizedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelfSizedCell.swift; path = UI/SelfSizedCell.swift; sourceTree = "<group>"; };
 		CBA548D71EBBEB8000C06422 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Models.swift; path = Core/Models.swift; sourceTree = "<group>"; };
 		CBA548DB1EBBF6C200C06422 /* CategoriesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoriesVC.swift; path = UI/Category/CategoriesVC.swift; sourceTree = "<group>"; };
 		CBA548DD1EBBF6CA00C06422 /* PoetsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PoetsVC.swift; path = UI/Poet/PoetsVC.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		CB82AD981E6608E700C06422 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				CB2A8CE01EBF6A6D00C06422 /* SelfSizedCell.swift */,
 				CBBB82131E76C09100C06422 /* Poet */,
 				CB06F9F51E79848600C06422 /* Category */,
 				CB06F9FE1E798C2600C06422 /* Poem */,
@@ -313,6 +316,7 @@
 				CBA548EA1EBBFA5900C06422 /* FontExtension.swift in Sources */,
 				CBFC8C431E71E67600C06422 /* GanjoorProvider.swift in Sources */,
 				CBA548D81EBBEB8000C06422 /* Models.swift in Sources */,
+				CB2A8CE11EBF6A6D00C06422 /* SelfSizedCell.swift in Sources */,
 				CBA548E01EBBF6D900C06422 /* VerseVC.swift in Sources */,
 				CBA548DE1EBBF6CA00C06422 /* PoetsVC.swift in Sources */,
 				CBA548DC1EBBF6C200C06422 /* CategoriesVC.swift in Sources */,

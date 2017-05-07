@@ -63,6 +63,14 @@ struct Verse: ALSwiftyJSONAble {
     let position: Int
     let text: String
     
+    var alignment: NSTextAlignment {
+        if position == 0 {
+            return .right
+        }else{
+            return .left
+        }
+    }
+    
     init?(jsonData: JSON) {
         id = jsonData["id"].intValue
         poemId = jsonData["poemId"].int

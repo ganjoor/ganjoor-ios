@@ -43,12 +43,12 @@ class CategoriesVC: ASViewController<ASCollectionNode>, ASCollectionDataSource, 
     
     func collectionNode(_ collectionNode: ASCollectionNode, nodeBlockForItemAt indexPath: IndexPath) -> ASCellNodeBlock {
         return { () -> ASCellNode in
-            return SelfSizedCell(text: self.categories[indexPath.row].name, font: UIFont.vazirFont(weight: .regular, size: 20), color: #colorLiteral(red: 0.1773044467, green: 0.1990784109, blue: 0.2371648252, alpha: 1), insets: UIEdgeInsets(top: 0, left: 30, bottom: 0, right: 30), alignment: .right)
+            return SelfSizedCell(text: self.categories[indexPath.row].name, font: UIFont.vazirFont(weight: .regular, size: 20), color: #colorLiteral(red: 0.1773044467, green: 0.1990784109, blue: 0.2371648252, alpha: 1), insets: UIEdgeInsets(top: 0, left: 30, bottom: 0, right: 30), alignment: .right, isUnderlined: true)
         }
     }
     
     func collectionNode(_ collectionNode: ASCollectionNode, nodeForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> ASCellNode {
-        return SelfSizedCell(text: poetName, font: UIFont.vazirFont(weight: .bold, size: 40), color: #colorLiteral(red: 0.1773044467, green: 0.1990784109, blue: 0.2371648252, alpha: 1), insets: UIEdgeInsets(top: 20, left: 30, bottom: 20, right: 30), alignment: .right)
+        return SelfSizedCell(text: poetName, font: UIFont.vazirFont(weight: .bold, size: 40), color: #colorLiteral(red: 0.1773044467, green: 0.1990784109, blue: 0.2371648252, alpha: 1), insets: UIEdgeInsets(top: 20, left: 30, bottom: 20, right: 30), alignment: .right, isUnderlined: false)
     }
     
     func collectionNode(_ collectionNode: ASCollectionNode, sizeRangeForHeaderInSection section: Int) -> ASSizeRange {

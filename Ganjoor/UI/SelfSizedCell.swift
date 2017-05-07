@@ -14,15 +14,18 @@ class SelfSizedCell: ASCellNode {
     let textNode = ASTextNode()
     let insets: UIEdgeInsets
     
-    init(text: String, font: UIFont, color: UIColor, insets: UIEdgeInsets, alignment: NSTextAlignment) {
+    init(text: String, font: UIFont, color: UIColor, insets: UIEdgeInsets, alignment: NSTextAlignment, isUnderlined: Bool) {
         self.insets = insets
         super.init()
         addSubnode(textNode)
         
         let style = NSMutableParagraphStyle()
         style.alignment = alignment
-        
-        textNode.attributedText = NSAttributedString(string: text, attributes: [NSFontAttributeName: font, NSForegroundColorAttributeName: color, NSParagraphStyleAttributeName: style])
+        var attributes: [String : Any] = [NSFontAttributeName: font, NSForegroundColorAttributeName: color, NSParagraphStyleAttributeName: style]
+        if isUnderlined {
+            attributes[NSUnderlineStyleAttributeName] = NSUnderlineStyle.styleSingle.rawValue
+        }
+        textNode.attributedText = NSAttributedString(string: text, attributes: attributes)
     }
     
     override func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec {
